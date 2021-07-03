@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+/* navbar */
+
+#navbar {
+    height: 110px;
+    background-color: #F4FEFF;
+}
+
+#navbar .flex {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 110px;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 39px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #450b78;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav-menu li a.active:before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    width: 75px;
+    left: 15px;
+    bottom: 20px;
+    height: 2px;
+    background-color: #a60dcf;
+}
+
+.nav-menu li a:before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    width: 0px;
+    left: 15px;
+    bottom: 20px;
+    height: 2px;
+    background-color: #a60dcf;
+    transition: all 0.35s ease;
+}
+
+.nav-menu li a:hover:before {
+    width: 75px;
+}
+
+
+/* banner */
+.banner {
+    background-color: #F4FEFF;
+    padding-top: 56px;
+}
+
+.banner .grid {
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+
+.banner-text p:first-child {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2b044d;
+}
+
+.banner-text h1 {
+    color: #2b044d;
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 0;
+}
+
+.banner-content {
+    color: #707b8e;
+    font-size: 16px;
+    line-height: 30px;
+    width: 460px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    background-color: #f9218d;
+    padding: 18px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.play-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    background-color: #D852E8;
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+
+
