@@ -145,6 +145,7 @@ img {
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .play-icon {
