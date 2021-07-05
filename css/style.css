@@ -23,6 +23,15 @@ img {
     width: 100%;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #2b044d;
+    font-family: Nunito, sans-serif;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -160,5 +169,133 @@ img {
     margin-left: 20px;
 }
 
+/* feature */
+
+.feature {
+    padding: 80px 0;
+}
+
+.feature .grid {
+    grid-template-columns: 38% 63%;
+}
+
+.feature-head {
+    font-size: 50px;
+    font-family: Nunito, sans-serif;
+    margin-bottom: 45px;
+}
+
+.features.grid {
+    grid-template-columns: 50% 50%;
+    padding: 0 20px;
+}
+
+.single-features i {
+    color: #fff;
+    font-size: 30px;
+    height: 69px;
+    width: 125px;
+    display: block;
+    line-height: 67px;
+    border-radius: 50%;
+    text-align: center;
+    background-image: -moz-linear-gradient(90deg,#e78ae9 0%,#926ef8 100%);
+    background-image: -webkit-linear-gradient(90deg,#e78ae9 0%,#926ef8 100%);
+}
+
+.feature-text {
+    padding-left: 24px;
+}
+
+.single-features.flex {
+    margin-bottom: 54px;
+}
+
+.feature-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Nunito';
+}
+
+.feature-text p {
+    font-family: "Poppins",sans-serif;
+    color: #707b8e;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    padding-right: 30px;
+    margin-top: 7px;
+}
+
+.container img {
+    padding-right: 27px;
+}
 
 
+/* Help Section */
+
+.help {
+    padding: 150px 0;
+    background: #f4feff;
+}
+
+.help-items{
+    display: flex;
+}
+
+.help h1 {
+    text-align: center;
+    width: 660px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.help-item {
+    width: 370px;
+    height: 457px;
+    background: #fff;
+    text-align: center;
+    margin-right: 35px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px #c3c2c2;
+}
+
+.help-icon {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    background: #e88cea;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.help-item:hover .help-icon{
+    background: #835EF8;
+}
+.help-item:hover {
+    border: 1px solid #b8a2ff;
+}
+
+.help-icon i {
+    margin-top: 23px;
+    font-size: 47px;
+    color: white;
+}
+
+.help-item.active{
+    border: 1px solid #b8a2ff;
+}
+
+.help-item.active .help-icon {
+    background: #835EF8;
+}
+
+.help-item h2 {
+    margin-bottom: 30px;
+}
