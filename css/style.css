@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0 20px;
@@ -62,7 +62,7 @@ p {
 }
 
 .logo {
-    width: 110px;
+    width: 130px;
 }
 
 .nav-menu {
@@ -302,4 +302,80 @@ p {
 
 .help-item h2 {
     margin-bottom: 30px;
+}
+
+/* app download section style */
+
+.app {
+    color: #fff;
+}
+
+.app .grid {
+    padding: 180px 0;
+    grid-template-columns: 40% 60%;
+    background: linear-gradient(98deg,#6c19f6 0%,#f9218d 100%);
+}
+
+.app .flex {
+    justify-content: flex-start;
+}
+
+.app-content {
+    padding-left: 80px;
+}
+
+.app-content h1,.app-content p {
+    color: #fff;
+}
+
+.app-content p {
+    padding: 40px 0;
+    width: 426px;
+}
+
+.app-download-img {
+    padding-right: 80px;
+    padding-left: 50px;
+}
+
+.download-app a:first-child {
+    margin-right: 30px;
+}
+
+
+/* contact style */
+
+.contact {
+    padding: 50px 0;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.contact button {
+    width: 201px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 380px;
+    margin-top: 110px;
+}
+
+.contact h1 {
+    padding-left: 150px;
+    margin-top: 111px;
+}
+
+img.role {
+    width: 260px;
+    position: absolute;
+    bottom: -105px;
+    left: -134px;
+}
+
+img.arrow {
+    width: 811px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
