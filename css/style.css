@@ -433,8 +433,13 @@ footer.footer button {
     color: #fff;
     line-height: 1;
     cursor: pointer;
-    margin-left: -4px;
+    margin-left: -5px;
     font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border: none;
+    outline: none;
 }
 
 .newletter-text {
@@ -462,3 +467,4 @@ footer.footer button {
     margin-top: 15px;
     font-size: 22px;
 }
+
