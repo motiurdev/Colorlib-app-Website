@@ -346,10 +346,10 @@ p {
 /* contact style */
 
 .contact {
-    padding: 50px 0;
     position: relative;
     height: 400px;
     overflow: hidden;
+    border-bottom: 1px solid #ffc9fd;
 }
 
 .contact button {
@@ -378,4 +378,87 @@ img.arrow {
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+/* footer  */
+
+.footer {
+    padding: 110px 0;
+    position: relative;
+}
+
+.footer .grid {
+    grid-template-columns: repeat(4,1fr);
+    gap: 58px;
+    align-items: flex-start;
+}
+
+footer.footer img {
+    width: 156px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul a {
+    display: block;
+    text-decoration: none;
+    color: #868c98;
+    padding: 8px 0;
+}
+
+.footer h3 {
+    color: #000;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer.footer input {
+    padding: 7px 6px;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 74%;
+    background: #f9f9fe;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer.footer button {
+    background: #8f1bdc;
+    border: none;
+    padding: 13px 22px;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    margin-left: -4px;
+    font-size: 16px;
+}
+
+.newletter-text {
+    margin-bottom: 25px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.arrow-button {
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #8f1bdc;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+.arrow-button i {
+    margin-top: 15px;
+    font-size: 22px;
 }
